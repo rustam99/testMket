@@ -1,0 +1,22 @@
+// VARS
+$purpule: #32448C;
+$lightPurpule: #8C91BA;
+$lightGreen: #87E389;
+$red: #D73649;
+$black: #121423;
+$lightBlack: #20263E;
+$footerHeight: 550px;
+
+// Import
+@import './modules/normalize';
+@import './modules/mixin';
+@import './modules/adjustment';
+@import './modules/ui';
+@import './modules/icons';
+@import './modules/header';
+@import './modules/presentation';
+@import './modules/categories';
+@import './modules/games';
+@import './modules/winning';
+@import './modules/statistics';
+@import './modules/footer';

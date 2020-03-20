@@ -1,0 +1,145 @@
+.Categories {
+	padding: 15px 0;
+	background-color: $black;
+	box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.5);
+	position: relative;
+}
+
+.Message {
+	position: absolute;
+	right: 30px;
+	top: 100%;
+	margin-top: -48px;
+}
+
+.Message__box {
+	@include flexCenter;
+	align-items: center;
+	width: 48px;
+	height: 48px;
+	border-radius: 50%;
+	background-color: #32448C;
+
+	& + & {
+		margin-top: 10px;
+	}
+}
+
+.Categories__list {
+	@include flexBetween;
+	align-items: center;
+	list-style: none;
+}
+
+.Categories__item {
+	display: flex;
+	align-items: center;
+
+	&--search {
+		position: relative;
+
+		.Categories__icon {
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+			right: 0;
+			margin-right: 20px;
+		}
+	}
+
+	&--all {
+		padding-right: 25px;
+		cursor: pointer;
+
+		&:hover {
+			.Categories__all {
+				color: $red;
+			}
+		}
+	}
+}
+
+.Categories__link,
+.Categories__all {
+	margin-left: 10px;
+	font-size: 14px;
+	font-weight: 500;
+	color: #fff;
+}
+
+.Categories__all {
+	margin-left: 0;
+	position: relative;
+
+	&:before,
+		&:after {
+			content: '';
+			position: absolute;
+			left: 100%;
+			margin-left: 15px;
+			top: 50%;
+			width: 1px;
+			height: 6px;
+			background-color: $red;
+		}
+
+	&:before {
+		transform: translateY(-50%) rotate(45deg);
+		margin-left: 20px;
+	}
+
+	&:after {
+		transform: translateY(-50%) rotate(-45deg);
+	}
+}
+
+.Categories__input {
+	width: 400px;
+	height: 30px;
+	padding: 0 15px;
+	box-sizing: border-box;
+	border: 1px solid #898989;
+	border-radius: 20px;
+	font-size: 14px;
+	color: #fff;
+	background-color: transparent;
+	outline: none;
+
+	&::placeholder,
+	&::-webkit-input-placeholder,
+	&:-ms-input-placeholder {
+		color: inherit;
+	}
+}
+
+.Categories__providers {
+	display: flex;
+	margin-top: 30px;
+	padding-left: 38px;
+	list-style: none;
+}
+
+.Categories__provider {
+	& + & {
+		margin-left: 10px;
+	}
+}
+
+.Categories__button {
+	padding: 5px 15px;
+	height: auto;
+	border: 1px solid #282F4B;
+	font-size: 13px;
+	color: #8187AD;
+	background: none;
+
+	&:hover {
+		border-color: $red;
+		color: #fff;
+	}
+
+	&--active {
+		border-color: $red;
+		color: #fff;
+	}
+}

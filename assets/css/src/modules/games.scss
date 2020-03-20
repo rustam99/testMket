@@ -1,0 +1,31 @@
+.Games {
+	&--new {
+		.Games__bigFormat {
+			border: 5px solid #8BEB01;
+			background-image: url('../img/misc/games/newGames/zombie-horde.png');
+			box-shadow: 0 0 14px #8BEB01;
+		}
+	}
+
+	&--popular {
+		.Games__bigFormat {
+			border: 5px solid #50FFE0;
+			background-image: url('../img/misc/games/popular/background_thors_lightning.png');
+			box-shadow: 0 0 14px #50FFDF;
+			order: 1;
+		}
+
+		.Games__list {
+			order: 2;
+			margin: 0;
+		}
+	}
+
+	&--recommendes {
+		.Games__bigFormat {
+			border: 5px solid #4F00F7;
+			background-image: url('../img/misc/games/recommends/pink-elephants-logotip-min.png');
+			box-shadow: 0 0 14px #4F00F7;
+		}
+	}
+}

@@ -1,0 +1,75 @@
+.Winning {
+	padding: 15px 0 20px;
+	background-color: #20263E;
+	box-shadow: 0 0 14px rgba(0, 0, 0, .25);
+}
+
+.Winning__box {
+	display: flex;
+	align-items: center;
+}
+
+.Winning__title {
+	width: 220px;
+	color: #fff;
+}
+
+.Winning__list {
+	display: flex;
+	align-items: center;
+	list-style: none;
+	position: relative;
+	overflow: hidden;
+
+
+	&:before,
+	&:after {
+		content: '';
+		position: absolute;
+		top: 0;
+		width: 40px;
+		height: 100%;
+		background-color: rgba(32, 38, 62, .9);
+		filter: url('#blur');
+	}
+
+	&:before {
+		left: 0;
+		margin-left: -10px;
+		border-radius: 50% 0 0 50%;
+	}
+
+	&:after {
+		right: 0;
+		margin-right: -10px;
+	}
+}
+
+.Winning__item {
+	display: flex;
+	align-items: center;
+
+	& + & {
+		margin-left: 25px;
+	}
+}
+
+.Winning__desc {
+	margin-left: 10px;
+}
+
+.Winning__name {
+	font-size: 12px;
+	color: #fff;
+}
+
+.Winning__link {
+	color: $lightGreen;
+	font-size: 12px;
+	text-decoration: underline;
+}
+
+.Winning__price {
+	margin-top: 10px;
+	color: #fff;
+}

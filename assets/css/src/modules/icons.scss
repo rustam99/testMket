@@ -1,0 +1,182 @@
+.icon {
+	background-image: url('../img/icons/UI_icons.png');
+	background-repeat: no-repeat;
+
+	&--search {
+		width: 20px;
+		height: 21px;
+		background-position-y: -87px;
+	}
+
+	&--logIn {
+		width: 11px;
+		height: 13px;
+		background-position-y: -91px;
+		background-position-x: -27px;
+	}
+
+	&--eye {
+		width: 18px;
+		height: 10px;
+		background-position-x: -45px;
+		background-position-y: -92px;
+
+		&:hover {
+			background-position-y: -104px;
+		}
+	}
+
+	&--arrowLeft,
+	&--arrowRight {
+		width: 12px;
+		height: 8px;
+		background-position-y: -94px;
+
+		&:hover {
+			background-position-y: -105px;
+		}
+	}
+
+	&--arrowLeft {
+		background-position-x: -92px;
+	}
+
+	&--arrowRight {
+		background-position-x: -70px;
+	}
+
+	&--age {
+		width: 54px;
+		height: 54px;
+	}
+
+	&--flag {
+		width: 25px;
+		height: 25px;
+		background-position-x: -2px;
+		background-position-y: -59px;
+	}
+
+	&--message {
+		width: 29px;
+		height: 28px;
+		background-position-x: -31px;
+		background-position-y: -57px;
+	}
+}
+
+.socialIcon {
+	width: 35px;
+	height: 34px;
+	background-image: url('../img/icons/social_icons.png');
+	background-repeat: no-repeat;
+
+	&--mail {
+		background-position-x: 0;
+	}
+
+	&--ok {
+		background-position-x: -74px;
+	}
+
+	&--fb {
+		background-position-x: -148px;
+	}
+
+	&--vk {
+		background-position-x: -37px;
+	}
+
+	&--gp {
+		background-position-x: -111px;
+	}
+}
+
+.categoriesIcon {
+	width: 28px;
+	height: 21px;
+	background-image: url('../img/icons/categories_icons.png');
+	background-repeat: no-repeat;
+
+	&--new {
+		background-position-x: 0;
+	}
+
+	&--favorites {
+		background-position-x: -30px;
+	}
+
+	&--slots {
+		background-position-x: -60px;
+	}
+
+	&--popular {
+		background-position-x: -90px;
+	}
+
+	&--table {
+		background-position-x: -120px;
+	}
+
+	&--live {
+		background-position-x: -150px;
+	}
+
+	&--last {
+		background-position-x: -180px;
+	}
+}
+
+.statusIcon {
+	background-image: url('../img/icons/status_icons.png');
+	background-repeat: no-repeat;
+
+	&--newGame {
+		height: 30px;
+		width: 99px;
+		background-position-y: -32px;
+	}
+
+	&--popularTall {
+		height: 30px;
+		width: 64px;
+		background-position-y: -108px;
+	}
+
+	&--popular {
+		height: 20px;
+		width: 64px;
+		background-position-y: -64px;
+	}
+
+	&--new {
+		height: 20px;
+		width: 48px;
+		background-position-y: -86px;
+	}
+
+	&--recommends {
+		height: 30px;
+		width: 117px;
+		background-position-y: 0;
+	}
+}
+
+.infoIcon {
+	background-image: url('../img/icons/info_icons.png');
+	background-repeat: no-repeat;
+	width: 76px;
+	height: 75px;
+
+	&--cards {
+		background-position-x: -156px;
+	}
+
+	&--flag {
+		background-position-x: -78px;
+	}
+
+	&--cubics {
+		background-position-x: 0;
+	}
+}

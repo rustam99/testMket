@@ -1,0 +1,148 @@
+.button {
+	height: 40px;
+	border-radius: 2em;
+	outline: none;
+
+	&:active {
+		&__text {
+			left: 0;
+			top: 0;
+		}
+	}
+
+	&__text {
+		position: relative;
+	}
+
+	&--fill {
+		width: 115px;
+		border: none;
+		color: #000;
+		font-weight: bold;
+		background-color: $lightGreen;
+	}
+
+	&--bordered {
+		width: 130px;
+		color: #fff;
+		font-weight: 500;
+		border: 1px solid #fff;
+		background-color: transparent;
+	}
+}
+
+.Games {
+	padding: 50px 0;
+}
+
+.Games__head {
+	@include flexBetween;
+	align-items: center;
+}
+
+.Games__title {
+	color: #fff;
+}
+
+.Games__view {
+	margin-right: 15px;
+	padding-right: 10px;
+	font-size: 18px;
+	font-weight: 500;
+	color: $lightGreen;
+	position: relative;
+
+	&:before,
+	&:after {
+		content: '';
+		position: absolute;
+		right: 0;
+		top: 50%;
+		width: 1px;
+		height: 7px;
+		background-color: $lightGreen;
+	}
+
+	&:before {
+		margin-top: -2px;
+		transform: translateY(-50%) rotate(-45deg);
+	}
+
+	&:after {
+		margin-top: 3px;
+		transform: translateY(-50%) rotate(45deg);
+	}
+
+	&:hover {
+		&:before,
+		&:after {
+			background-color: $red;
+		}
+	}
+}
+
+.Games__box {
+	display: table;
+	width: 100%;
+}
+
+.Games__list {
+	display: table-cell;
+	width: 68%;
+	margin: 0 -5px;
+	list-style: none;
+}
+
+.Games__item {
+	display: inline-block;
+	max-width: 242px;
+	margin: 5px;
+	position: relative;
+	cursor: pointer;
+}
+
+.Games__bigFormat {
+	display: table-cell;
+	margin: 5px 0;
+	border-radius: 17px;
+	position: relative;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Games__status {
+	@include flexCenter;
+	align-items: center;
+	position: absolute;
+	top: 30px;
+	right: 0;
+	font-size: 14px;
+	color: #fff;
+	font-weight: 500;
+}
+
+.Games__btn {
+	display: inline-block;
+	border: 0;
+	padding: 0;
+
+	&:active {
+		vertical-align: middle;
+	}
+}
+
+.Pay {
+	margin: 80px 0 50px;
+}
+
+.Pay__list {
+	list-style: none;
+	@include flexCenter;
+	align-items: center;
+}
+
+.Pay__item {
+	& + & {
+		margin-left: 35px;
+	}
+}

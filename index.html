@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Тестовый макет</title>
+	<link rel="stylesheet" href="./assets/fonts/fonts.css">
+	<link rel="stylesheet" href="./assets/js/plugins/slick/slick.css">
+	<link rel="stylesheet" href="./assets/js/plugins/slick/slick-theme.css">
+	<link rel="stylesheet" href="./assets/css/style.min.css">
+</head>
+<body>
+	<svg xmlns="http://www.w3.org/2000/svg" version="1.1" style="position: absolute; width: 0; height: 0;">
+		<defs>
+			<filter id="blur">
+				<feGaussianBlur in="SourceGraphic" stdDeviation="4"></feGaussianBlur>
+			</filter>
+		</defs>
+	</svg>
+	<div class="Wrapper">
+		<header class="Header">
+			<div class="Container">
+				<nav class="Header__nav">
+					<ul class="Header__list">
+						<li class="Header__item icon icon--search"></li>
+						<li class="Header__item Header__item--indent">
+							<a class="Header__link" href="#">Casino</a>
+						</li>
+						<li class="Header__item">
+							<a class="Header__link" href="#">Shop</a>
+						</li>
+						<li class="Header__item">
+							<a class="Header__link" href="#">Promotions</a>
+						</li>
+					</ul>
+					<div class="Header__logo">
+						<a class="Header__link" href="#">
+							<img class="Logo" src="./assets/img/interface/logo.svg" alt="logo">
+							<span class="Header__logoText">Casino test</span>
+						</a>
+					</div>
+					<div class="Header__buttons">
+						<button class="Header__button button button--fill">
+							<span class="button__text">Deposit</span>
+						</button>
+						<button class="Header__button button button--bordered">
+							<span class="Header__buttonIcon icon icon--logIn button__text"></span>
+							<span class="Header__buttonText button__text">Log In</span>
+						</button>
+					</div>
+				</nav>
+			</div>
+		</header>
+		<section class="Presentation">
+			<div class="Container">
+				<div class="Presentation__box">
+					<div class="Presentation__signUp SignUp">
+						<img class="Presentation__img Presentation__img--top" src="./assets/img/interface/diamond.svg" alt="diamond">
+						<img class="Presentation__img Presentation__img--bottom" src="./assets/img/interface/diamond.svg" alt="diamond">
+						<h2 class="SignUp__title">Sign up and start winning</h2>
+						<div class="SignUp__note">With your social network</div>
+						<ul class="SignUp__list">
+							<li class="SignUp__item">
+								<a class="SignUp__link socialIcon socialIcon--mail" href="#"></a>
+							</li>
+							<li class="SignUp__item">
+								<a class="SignUp__link socialIcon socialIcon--ok" href="#"></a>
+							</li>
+							<li class="SignUp__item">
+								<a class="SignUp__link socialIcon socialIcon--fb" href="#"></a>
+							</li>
+							<li class="SignUp__item">
+								<a class="SignUp__link socialIcon socialIcon--vk" href="#"></a>
+							</li>
+							<li class="SignUp__item">
+								<a class="SignUp__link socialIcon socialIcon--gp" href="#"></a>
+							</li>
+						</ul>
+						<div class="SignUp__note">or</div>
+						<form class="SignUp__form">
+							<div class="SignUp__field">
+								<input class="SignUp__input" type="email" placeholder="E-mail *">
+							</div>
+							<div class="SignUp__field SignUp__field--flex">
+								<label class="SignUp__label">
+									<input class="SignUp__input" type="password" placeholder="Password *">
+									<span class="SignUp__icon icon icon--eye js-viewPassword"></span>
+								</label>
+								<div class="SignUp__select">
+									<div class="SignUp__type">Currency *</div>
+									<ul class="SignUp__selectList">
+										<li class="SignUp__selectItem">Rub</li>
+										<li class="SignUp__selectItem">$</li>
+									</ul>
+								</div>
+							</div>
+							<div class="SignUp__field SignUp__field--halfWidth">
+								<label class="SignUp__label">
+									<input class="SignUp__input" type="text" placeholder="Promo-code">
+									<span class="SignUp__labelText" title="It`s promo-code">?</span>
+								</label>
+							</div>
+							<div class="SignUp__field">
+								<label class="SignUp__label">
+									<input class="SignUp__checkbox" type="checkbox">
+									<span class="SignUp__customCheckbox"></span><span class="SignUp__text">I agree with Teame and Confidence</span>
+								</label>
+							</div>
+							<div class="SignUp__field">
+								<label class="SignUp__label">
+									<input class="SignUp__checkbox" type="checkbox">
+									<span class="SignUp__customCheckbox"></span><span class="SignUp__text">I comfirm that I’m 18 years or older</span>
+								</label>
+							</div>
+							<div class="SignUp__field SignUp__field--indent">
+								<button class="SignUp__button button button--fill">
+									<span class="button__text">Register</span>
+								</button>
+							</div>
+						</form>
+						<a class="SignUp__link SignUp__link--decoration" href="#">Have an account?</a>
+					</div>
+					<div class="Presentation__slider Slider">
+						<ul class="Slider__list">
+							<li class="Slider__item">
+								<img class="Slider__img" src="./assets/img/interface/slider/slider_bg.png" alt="game">
+								<div class="Slider__arrows">
+									<div class="Slider__arrow">
+										<span class="Slider__arrowIcon icon icon--arrowLeft"></span>
+									</div>
+									<div class="Slider__arrow">
+										<span class="Slider__arrowIcon icon icon--arrowRight"></span>
+									</div>
+								</div>
+								<div class="Slider__status">FIRST bonuses</div>
+								<h1 class="Slider__title">Welcome BonusPackage</h1>
+								<div class="Slider__desc">200 bonus and 100 free spins</div>
+								<button class="Slider__button button button--fill">
+									<span class="button__text">Deposit</span>
+								</button>
+							</li>
+							<li class="Slider__item">
+								<img class="Slider__img" src="./assets/img/interface/slider/slider_bg.png" alt="game">
+								<div class="Slider__arrows">
+									<div class="Slider__arrow">
+										<span class="Slider__arrowIcon icon icon--arrowLeft"></span>
+									</div>
+									<div class="Slider__arrow">
+										<span class="Slider__arrowIcon icon icon--arrowRight"></span>
+									</div>
+								</div>
+								<div class="Slider__status">FIRST bonuses</div>
+								<h1 class="Slider__title">Welcome BonusPackage</h1>
+								<div class="Slider__desc">200 bonus and 100 free spins</div>
+								<button class="Slider__button button button--fill">
+									<span class="button__text">Depos</span>
+								</button>
+							</li>
+							<li class="Slider__item">
+								<img class="Slider__img" src="./assets/img/interface/slider/slider_bg.png" alt="game">
+								<div class="Slider__arrows">
+									<div class="Slider__arrow">
+										<span class="Slider__arrowIcon icon icon--arrowLeft"></span>
+									</div>
+									<div class="Slider__arrow">
+										<span class="Slider__arrowIcon icon icon--arrowRight"></span>
+									</div>
+								</div>
+								<div class="Slider__status">FIRST bonuses</div>
+								<h1 class="Slider__title">Welcome BonusPackage</h1>
+								<div class="Slider__desc">200 bonus and 100 free spins</div>
+								<button class="Slider__button button button--fill">
+									<span class="button__text">Depos</span>
+								</button>
+							</li>
+							<li class="Slider__item">
+								<img class="Slider__img" src="./assets/img/interface/slider/slider_bg.png" alt="game">
+								<div class="Slider__arrows">
+									<div class="Slider__arrow">
+										<span class="Slider__arrowIcon icon icon--arrowLeft"></span>
+									</div>
+									<div class="Slider__arrow">
+										<span class="Slider__arrowIcon icon icon--arrowRight"></span>
+									</div>
+								</div>
+								<div class="Slider__status">FIRST bonuses</div>
+								<h1 class="Slider__title">Welcome BonusPackage</h1>
+								<div class="Slider__desc">200 bonus and 100 free spins</div>
+								<button class="Slider__button button button--fill">
+									<span class="button__text">Depos</span>
+								</button>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="Categories">
+			<div class="Message">
+				<div class="Message__box">
+					<div class="icon icon--flag"></div>
+				</div>
+				<div class="Message__box">
+					<div class="icon icon--message"></div>
+				</div>
+			</div>
+			<div class="Container">
+				<ul class="Categories__list">
+					<li class="Categories__item">
+						<div class="Categories__icon categoriesIcon categoriesIcon--new"></div>
+						<a class="Categories__link" href="#">New games</a>
+					</li>
+					<li class="Categories__item">
+						<div class="Categories__icon categoriesIcon categoriesIcon--popular"></div>
+						<a class="Categories__link" href="#">Popular</a>
+					</li>
+					<li class="Categories__item">
+						<div class="Categories__icon categoriesIcon categoriesIcon--slots"></div>
+						<a class="Categories__link" href="#">Slots</a>
+					</li>
+					<li class="Categories__item">
+						<div class="Categories__icon categoriesIcon categoriesIcon--live"></div>
+						<a class="Categories__link" href="#">Casino Live</a>
+					</li>
+					<li class="Categories__item">
+						<div class="Categories__icon categoriesIcon categoriesIcon--table"></div>
+						<a class="Categories__link" href="#">Table Games</a>
+					</li>
+					<li class="Categories__item">
+						<div class="Categories__icon categoriesIcon categoriesIcon--favorites"></div>
+						<a class="Categories__link" href="#">Faworites</a>
+					</li>
+					<li class="Categories__item">
+						<div class="Categories__icon categoriesIcon categoriesIcon--last"></div>
+						<a class="Categories__link" href="#">Last played</a>
+					</li>
+					<li class="Categories__item Categories__item--all">
+						<span class="Categories__all">All category</span>
+					</li>
+					<li class="Categories__item Categories__item--search">
+						<input class="Categories__input" type="text" placeholder="Search games or providers">
+						<span class="Categories__icon icon icon--search"></span>
+					</li>
+				</ul>
+				<ul class="Categories__providers">
+					<li class="Categories__provider">
+						<button class="Categories__button button Categories__button--active">
+							<span class="button__text">All Providers</span>
+						</button>
+					</li>
+					<li class="Categories__provider">
+						<button class="Categories__button button">
+							<span class="button__text">NetEnt</span>
+						</button>
+					</li>
+					<li class="Categories__provider">
+						<button class="Categories__button button">
+							<span class="button__text">Microgaming</span>
+						</button>
+					</li>
+					<li class="Categories__provider">
+						<button class="Categories__button button">
+							<span class="button__text">Quickspin</span>
+						</button>
+					</li>
+					<li class="Categories__provider">
+						<button class="Categories__button button">
+							<span class="button__text">PragmaticPlay</span>
+						</button>
+					</li>
+					<li class="Categories__provider">
+						<button class="Categories__button button">
+							<span class="button__text">BoomingGames</span>
+						</button>
+					</li>
+					<li class="Categories__provider">
+						<button class="Categories__button button">
+							<span class="button__text">MrSlotty</span>
+						</button>
+					</li>
+					<li class="Categories__provider">
+						<button class="Categories__button button">
+							<span class="button__text">BoomingGames</span>
+						</button>
+					</li>
+					<li class="Categories__provider">
+						<button class="Categories__button button">
+							<span class="button__text">BetRadar</span>
+						</button>
+					</li>
+					<li class="Categories__provider">
+						<button class="Categories__button button">
+							<span class="button__text">PariPlay</span>
+						</button>
+					</li>
+					<li class="Categories__provider">
+						<button class="Categories__button button">
+							<span class="button__text">BetConstruct</span>
+						</button>
+					</li>
+					<li class="Categories__provider">
+						<button class="Categories__button button">
+							<span class="button__text">NetEnt</span>
+						</button>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<section class="Games Games--new">
+			<div class="Container">
+				<div class="Games__head">
+					<h2 class="Games__title">New games</h2>
+					<a class="Games__view" href="#">View all (46)</a>
+				</div>
+				<div class="Games__box">
+					<ul class="Games__list">
+						<li class="Games__item">
+							<img class="Games__img" src="./assets/img/misc/games/newGames/cashvandal.png" alt="game">
+						</li>
+						<li class="Games__item">
+							<img class="Games__img" src="./assets/img/misc/games/newGames/VSMonsterMad.png" alt="game">
+						</li>
+						<li class="Games__item">
+							<img class="Games__img" src="./assets/img/misc/games/newGames/junglespirit.png" alt="game">
+						</li>
+						<li class="Games__item">
+							<img class="Games__img" src="./assets/img/misc/games/newGames/fairyhansel.png" alt="game">
+						</li>
+						<li class="Games__item">
+							<img class="Games__img" src="./assets/img/misc/games/newGames/playboy.png" alt="game">
+						</li>
+						<li class="Games__item">
+							<img class="Games__img" src="./assets/img/misc/games/newGames/warlords.png" alt="game">
+						</li>
+						<li class="Games__item">
+							<img class="Games__img" src="./assets/img/misc/games/newGames/fairyred.png" alt="game">
+						</li>
+						<li class="Games__item">
+							<img class="Games__img" src="./assets/img/misc/games/newGames/copycats.png" alt="game">
+						</li>
+					</ul>
+					<div class="Games__bigFormat">
+						<div class="Games__status statusIcon statusIcon--newGame">New game</div>
+						<button class="Games__btn button button--fill">
+							<span class="button__text">Play now</span>
+						</button>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="Winning">
+			<div class="Container">
+				<div class="Winning__box">
+					<h2 class="Winning__title">Winning now</h2>
+					<ul class="Winning__list">
+						<li class="Winning__item">
+							<img class="Winning__img" src="./assets/img/misc/games/winning/jackhammer2.png" alt="winning">
+							<div class="Winning__desc">
+								<div class="Winning__name">Ivan-Khopkin</div>
+								<a class="Winning__link" href="#">100 Cats</a>
+								<div class="Winning__price">1020 Р</div>
+							</div>
+						</li>
+						<li class="Winning__item">
+							<img class="Winning__img" src="./assets/img/misc/games/winning/eldorado.png" alt="winning">
+							<div class="Winning__desc">
+								<div class="Winning__name">Daria</div>
+								<a class="Winning__link" href="#">The Story of Alex</a>
+								<div class="Winning__price">3420 Р</div>
+							</div>
+						</li>
+						<li class="Winning__item">
+							<img class="Winning__img" src="./assets/img/misc/games/winning/mgs_burglinbob_bonusslot.png" alt="winning">
+							<div class="Winning__desc">
+								<div class="Winning__name">Ivan-Khopkin</div>
+								<a class="Winning__link" href="#">100 Cats</a>
+								<div class="Winning__price">1020 Р</div>
+							</div>
+						</li>
+						<li class="Winning__item">
+							<img class="Winning__img" src="./assets/img/misc/games/winning/spacewars.png" alt="winning">
+							<div class="Winning__desc">
+								<div class="Winning__name">Daria</div>
+								<a class="Winning__link" href="#">The Story of Alex</a>
+								<div class="Winning__price">3420 Р</div>
+							</div>
+						</li>
+						<li class="Winning__item">
+							<img class="Winning__img" src="./assets/img/misc/games/winning/colossalpinatas.png" alt="winning">
+							<div class="Winning__desc">
+								<div class="Winning__name">Ivan-Khopkin</div>
+								<a class="Winning__link" href="#">100 Cats</a>
+								<div class="Winning__price">1020 Р</div>
+							</div>
+						</li>
+						<li class="Winning__item">
+							<img class="Winning__img" src="./assets/img/misc/games/winning/piggyriches.png" alt="winning">
+							<div class="Winning__desc">
+								<div class="Winning__name">Daria</div>
+								<a class="Winning__link" href="#">The Story of Alex</a>
+								<div class="Winning__price">3420 Р</div>
+							</div>
+						</li>
+						<li class="Winning__item">
+							<img class="Winning__img" src="./assets/img/misc/games/winning/starburst.png" alt="winning">
+							<div class="Winning__desc">
+								<div class="Winning__name">Ivan-Khopkin</div>
+								<a class="Winning__link" href="#">100 Cats</a>
+								<div class="Winning__price">1020 Р</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<section class="Games Games--popular">
+			<div class="Container">
+				<div class="Games__head">
+					<h2 class="Games__title">Popular</h2>
+					<a class="Games__view" href="#">View all (46)</a>
+				</div>
+				<div class="Games__box">
+					<div class="Games__bigFormat">
+						<div class="Games__status statusIcon statusIcon--popularTall">Popular</div>
+						<button class="Games__btn button button--fill">
+							<span class="button__text">Play now</span>
+						</button>
+					</div>
+					<ul class="Games__list">
+						<li class="Games__item">
+							<img class="Games__img" src="./assets/img/misc/games/popular/jackhammer2.png" alt="game">
+						</li>
+						<li class="Games__item">
+							<img class="Games__img" src="./assets/img/misc/games/popular/eldorado.png" alt="game">
+						</li>
+						<li class="Games__item">
+							<img class="Games__img" src="./assets/img/misc/games/popular/mgs_burglinbob_bonusslot.png" alt="game">
+						</li>
+						<li class="Games__item">
+							<img class="Games__img" src="./assets/img/misc/games/popular/goldfactory.png" alt="game">
+						</li>
+						<li class="Games__item">
+							<img class="Games__img" src="./assets/img/misc/games/popular/spacewars.png" alt="game">
+						</li>
+						<li class="Games__item">
+							<img class="Games__img" src="./assets/img/misc/games/popular/colossalpinatas.png" alt="game">
+						</li>
+						<li class="Games__item">
+							<img class="Games__img" src="./assets/img/misc/games/popular/piggyriches.png" alt="game">
+						</li>
+						<li class="Games__item">
+							<img class="Games__img" src="./assets/img/misc/games/popular/starburst.png" alt="game">
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<section class="Games Games--recommendes">
+			<div class="Container">
+				<div class="Games__head">
+					<h2 class="Games__title">Recommends games</h2>
+					<a class="Games__view" href="#">View all (46)</a>
+				</div>
+				<div class="Games__box">
+					<ul class="Games__list">
+						<li class="Games__item">
+							<div class="Games__status statusIcon statusIcon--popular">Popular</div>
+							<img class="Games__img" src="./assets/img/misc/games/recommends/jokerpro.png" alt="game">
+						</li>
+						<li class="Games__item">
+							<div class="Games__status statusIcon statusIcon--new">New</div>
+							<img class="Games__img" src="./assets/img/misc/games/recommends/kawaii_kitty.png" alt="game">
+						</li>
+						<li class="Games__item">
+							<img class="Games__img" src="./assets/img/misc/games/recommends/FruitVSCandy.png" alt="game">
+						</li>
+						<li class="Games__item">
+							<img class="Games__img" src="./assets/img/misc/games/recommends/hooksheroes.png" alt="game">
+						</li>
+						<li class="Games__item">
+							<div class="Games__status statusIcon statusIcon--new">New</div>
+							<img class="Games__img" src="./assets/img/misc/games/recommends/JungleJim_ElDorado.png" alt="game">
+						</li>
+						<li class="Games__item">
+							<img class="Games__img" src="./assets/img/misc/games/recommends/classic243Desktop.png" alt="game">
+						</li>
+						<li class="Games__item">
+							<div class="Games__status statusIcon statusIcon--popular">Popular</div>
+							<img class="Games__img" src="./assets/img/misc/games/recommends/PrettyKitty.png" alt="game">
+						</li>
+						<li class="Games__item">
+							<img class="Games__img" src="./assets/img/misc/games/recommends/GameOfThronesWays.png" alt="game">
+						</li>
+					</ul>
+					<div class="Games__bigFormat">
+						<div class="Games__status statusIcon statusIcon--recommends">Recommends</div>
+						<button class="Games__btn button button--fill">
+							<span class="button__text">Play now</span>
+						</button>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="Statistics">
+			<div class="Container">
+				<div class="Statistics__box">
+					<div class="Statistics__month">
+						<h3 class="Statistics__title">Game of month</h3>
+						<div class="Statistics__desc">
+							<img class="Statistics__img" src="./assets/img/misc/games/game_of_month/junglebooks_gamespage.png" alt="month_game">
+							<div class="Statistics__descText"> 87% of players played the <a class="Statistics__link" href="#">JUNGLE BOOKS</a> all month
+							</div>
+							<button class="Statistics__btn button">
+								<span class="button__text">Start playing</span>
+							</button>
+						</div>
+					</div>
+					<div class="Statistics__played">
+						<ul class="Statistics__list">
+							<li class="Statistics__item">
+								<div class="Statistics__icon infoIcon infoIcon--cards"></div>
+								<div class="Statistics__summary">
+									<h1 class="Statistics__text">+100</h1>
+									<div class="Statistics__type">Players every day</div>
+								</div>
+							</li>
+							<li class="Statistics__item">
+								<div class="Statistics__icon infoIcon infoIcon--flag"></div>
+								<div class="Statistics__summary">
+									<h1 class="Statistics__text">30</h1>
+									<div class="Statistics__type">Providers</div>
+								</div>
+							</li>
+							<li class="Statistics__item">
+								<div class="Statistics__icon infoIcon infoIcon--cubics"></div>
+								<div class="Statistics__summary">
+									<h1 class="Statistics__text">+500</h1>
+									<div class="Statistics__type">of over games</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="Statistics__wins">
+						<h3 class="Statistics__title">Biggest wins</h3>
+						<ul class="Statistics__winsList">
+							<li class="Statistics__winsItem">
+								<div class="Statistics__player Statistics__player--head">Player</div>
+								<div class="Statistics__game Statistics__game--head">Game</div>
+								<div class="Statistics__points Statistics__points--head">Points</div>
+							</li>
+							<li class="Statistics__winsItem Statistics__winsItem--win">
+								<div class="Statistics__player">SlotPirot12</div>
+								<a class="Statistics__game" href="#">Gonzo Quest</a>
+								<div class="Statistics__points">5000 &euro;</div>
+							</li>
+							<li class="Statistics__winsItem">
+								<div class="Statistics__player">LussyLu</div>
+								<a class="Statistics__game" href="#">Spinata Grande</a>
+								<div class="Statistics__points">3 200 &euro;</div>
+							</li>
+							<li class="Statistics__winsItem">
+								<div class="Statistics__player">SunnyLunny</div>
+								<a class="Statistics__game" href="#">Jack Hammer</a>
+								<div class="Statistics__points">2 300 &euro;</div>
+							</li>
+							<li class="Statistics__winsItem">
+								<div class="Statistics__player">SlotPirot12</div>
+								<a class="Statistics__game" href="#">Gonzo Quest</a>
+								<div class="Statistics__points">1000 &euro;</div>
+							</li>
+							<li class="Statistics__winsItem">
+								<div class="Statistics__player">LussyLu</div>
+								<a class="Statistics__game" href="#">Spinata Grande</a>
+								<div class="Statistics__points">750 &euro;</div>
+							</li>
+							<li class="Statistics__winsItem">
+								<div class="Statistics__player">LussyLu</div>
+								<a class="Statistics__game" href="#">Spinata Grande</a>
+								<div class="Statistics__points">750 &euro;</div>
+							</li>
+							<li class="Statistics__winsItem">
+								<div class="Statistics__player">LussyLu</div>
+								<a class="Statistics__game" href="#">Spinata Grande</a>
+								<div class="Statistics__points">750 &euro;</div>
+							</li>
+							<li class="Statistics__winsItem">
+								<div class="Statistics__player">LussyLu</div>
+								<a class="Statistics__game" href="#">Spinata Grande</a>
+								<div class="Statistics__points">750 &euro;</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="Pay">
+			<div class="Container">
+				<ul class="Pay__list">
+					<li class="Pay__item">
+						<img class="Pay__img" src="./assets/img/interface/pay/neteller.svg" alt="neteller">
+					</li>
+					<li class="Pay__item">
+						<img class="Pay__img" src="./assets/img/interface/pay/skrill.svg" alt="skrill">
+					</li>
+					<li class="Pay__item">
+						<img class="Pay__img" src="./assets/img/interface/pay/cubits.svg" alt="cubits">
+					</li>
+					<li class="Pay__item">
+						<img class="Pay__img" src="./assets/img/interface/pay/mastercard.svg" alt="mastercard">
+					</li>
+					<li class="Pay__item">
+						<img class="Pay__img" src="./assets/img/interface/pay/visa.svg" alt="visa">
+					</li>
+					<li class="Pay__item">
+						<img class="Pay__img" src="./assets/img/interface/pay/qiwi.svg" alt="qiwi">
+					</li>
+					<li class="Pay__item">
+						<img class="Pay__img" src="./assets/img/interface/pay/yandex.svg" alt="yandex">
+					</li>
+				</ul>
+			</div>
+		</section>
+	</div>
+	<footer class="Footer">
+		<div class="Container">
+			<ul class="Footer__providers">
+				<li class="Footer__provider">
+					<img class="Footer__providerImg" src="./assets/img/interface/partners/bet365.svg" alt="provider">
+				</li>
+				<li class="Footer__provider">
+					<img class="Footer__providerImg" src="./assets/img/interface/partners/yggdrasil.svg" alt="provider">
+				</li>
+				<li class="Footer__provider">
+					<img class="Footer__providerImg" src="./assets/img/interface/partners/microgaming.svg" alt="provider">
+				</li>
+				<li class="Footer__provider">
+					<img class="Footer__providerImg" src="./assets/img/interface/partners/evolution.svg" alt="provider">
+				</li>
+				<li class="Footer__provider">
+					<img class="Footer__providerImg" src="./assets/img/interface/partners/bet365.svg" alt="provider">
+				</li>
+				<li class="Footer__provider">
+					<img class="Footer__providerImg" src="./assets/img/interface/partners/pariplay.svg" alt="provider">
+				</li>
+				<li class="Footer__provider">
+					<img class="Footer__providerImg" src="./assets/img/interface/partners/evolution.svg" alt="provider">
+				</li>
+				<li class="Footer__provider">
+					<img class="Footer__providerImg" src="./assets/img/interface/partners/microgaming.svg" alt="provider">
+				</li>
+				<li class="Footer__provider">
+					<img class="Footer__providerImg" src="./assets/img/interface/partners/evolution.svg" alt="provider">
+				</li>
+				<li class="Footer__provider">
+					<img class="Footer__providerImg" src="./assets/img/interface/partners/bet365.svg" alt="provider">
+				</li>
+				<li class="Footer__provider">
+					<img class="Footer__providerImg" src="./assets/img/interface/partners/viva.svg" alt="provider">
+				</li>
+				<li class="Footer__provider">
+					<img class="Footer__providerImg" src="./assets/img/interface/partners/playson.svg" alt="provider">
+				</li>
+				<li class="Footer__provider">
+					<img class="Footer__providerImg" src="./assets/img/interface/partners/pragmatic.svg" alt="provider">
+				</li>
+				<li class="Footer__provider">
+					<img class="Footer__providerImg" src="./assets/img/interface/partners/spotoption.svg" alt="provider">
+				</li>
+				<li class="Footer__provider">
+					<img class="Footer__providerImg" src="./assets/img/interface/partners/viva.svg" alt="provider">
+				</li>
+				<li class="Footer__provider">
+					<img class="Footer__providerImg" src="./assets/img/interface/partners/yggdrasil.svg" alt="provider">
+				</li>
+				<li class="Footer__provider">
+					<img class="Footer__providerImg" src="./assets/img/interface/partners/spotoption.svg" alt="provider">
+				</li>
+				<li class="Footer__provider">
+					<img class="Footer__providerImg" src="./assets/img/interface/partners/pragmatic.svg" alt="provider">
+				</li>
+				<li class="Footer__provider">
+					<img class="Footer__providerImg" src="./assets/img/interface/partners/spotoption.svg" alt="provider">
+				</li>
+				<li class="Footer__provider">
+					<img class="Footer__providerImg" src="./assets/img/interface/partners/viva.svg" alt="provider">
+				</li>
+			</ul>
+			<div class="Footer__info">
+				<div class="Footer__images">
+					<div class="Footer__logo">
+						<a class="Footer__link" href="#">
+							<img class="Logo" src="./assets/img/interface/logo.svg" alt="">
+							<span class="Footer__logoText">Casino Test</span>
+						</a>
+					</div>
+					<div class="Footer__age">
+						<div class="Footer__ageImg icon icon--age"></div>
+					</div>
+				</div>
+				<div class="Footer__nav">
+					<div class="Footer__navBox">
+						<h2 class="Footer__title">Navigation</h2>
+						<ul class="Footer__list">
+							<li class="Footer__item">
+								<a class="Footer__link" href="#">Promotions</a>
+							</li>
+							<li class="Footer__item">
+								<a class="Footer__link" href="#">Casino Live</a>
+							</li>
+							<li class="Footer__item">
+								<a class="Footer__link" href="#">Casino</a>
+							</li>
+							<li class="Footer__item">
+								<a class="Footer__link" href="#">Sportbook</a>
+							</li>
+						</ul>
+					</div>
+					<div class="Footer__navBox">
+						<h2 class="Footer__title">Categories</h2>
+						<ul class="Footer__list">
+							<li class="Footer__item">
+								<a class="Footer__link" href="#">New games</a>
+							</li>
+							<li class="Footer__item">
+								<a class="Footer__link" href="#">Popular</a>
+							</li>
+							<li class="Footer__item">
+								<a class="Footer__link" href="#">Slots</a>
+							</li>
+							<li class="Footer__item">
+								<a class="Footer__link" href="#">Casino live</a>
+							</li>
+							<li class="Footer__item">
+								<a class="Footer__link" href="#">Other</a>
+							</li>
+						</ul>
+					</div>
+					<div class="Footer__navBox">
+						<h2 class="Footer__title">License</h2>
+						<ul class="Footer__list">
+							<li class="Footer__item">
+								<a class="Footer__link" href="#">Responsible Game
+									</a>
+							</li>
+							<li class="Footer__item">
+								<a class="Footer__link" href="#">Fair Play</a>
+							</li>
+						</ul>
+					</div>
+					<div class="Footer__navBox">
+						<h2 class="Footer__title">Сontacts</h2>
+						<ul class="Footer__list">
+							<li class="Footer__item">
+								<a class="Footer__link" href="#">Contact</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="Footer__text">
+					<h3 class="Footer__title">To test one’s luck, one don’t even need to leave his or her house</h3>
+					<p class="Footer__paragraph">Today online casinos have ceased to be something unusual, they are pretty much the same organizations as genuine gambling-houses, and their activities are strictly controlled. The online casino WebbySlot is being repeatedly tested for its honesty, and passes such tests successfully!
+					</p>
+				</div>
+			</div>
+			<div class="Footer__desc">
+				<div class="Footer__descText">Deuscasino.com is operated by SG International N.V., which is registered in E-Commerce park, Vredenberg, Curacao, having gaming licence No.8048/JAZZ2015-035 and all rights to operate the gaming software. SG International LP is providing payment services as an agent according to the licence agreement concluded between SG International LP and SG International N.V.</div>
+				<div class="Footer__descText">&copy; Deus Casino. All rights reserved.</div>
+				<div class="Footer__descText">Developed by <a class="Footer__link Footer__link--lightBlue" href="#">Softgamings</a></div>
+			</div>
+		</div>
+	</footer>
+	<script src="./assets/js/jqeury.js"></script>
+	<script src="./assets/js/plugins/slick/slick.min.js"></script>
+	<script src="./assets/js/main.js"></script>
+</body>
+</html>
